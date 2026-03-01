@@ -35,19 +35,61 @@ export function checkSingleAnswer(correct: string, user: string): boolean {
 
 // 判分：多选题（必须完全一致）
 export function checkMultipleAnswer(correct: string, user: string): boolean {
-  const c = normalizeAnswer(correct).split(',').sort().join(',');
-  const u = normalizeAnswer(user).split(',').sort().join(',');
+  const c = normalizeAnswer(correct).split(',').filter(Boolean).sort().join(',');
+  const u = normalizeAnswer(user).split(',').filter(Boolean).sort().join(',');
   return c === u;
 }
 
 export function checkAnswer(question: Question, userAnswer: string): boolean {
   const correct = question.correctAnswer;
+  
+  // 判断题特殊处理
+  if (question.type === 'judge') {
+    return checkJudgeAnswer(question, userAnswer);
+  }
+  
   if (question.type === 'multiple') {
     return checkMultipleAnswer(correct, userAnswer);
   }
   return checkSingleAnswer(correct, userAnswer);
 }
 
+// 判断题判分：支持 A/B 或 正确/错误 格式
+function checkJudgeAnswer(question: Question, userAnswer: string): boolean {
+  const normalized = normalizeAnswer(userAnswer);
+  const correctNormalized = normalizeAnswer(question.correctAnswer);
+  
+  // 直接比对
+  if (normalized === correctNormalized) {
+    return true;
+  }
+  
+  // 将用户答案转换为文本（如果是 A 或 B）
+  let userText = normalized;
+  if (normalized === 'A' || normalized === 'B') {
+    const option = question.options.find(opt => opt.startsWith(normalized));
+    if (option) {
+      userText = normalizeAnswer(option.replace(/^[AB]、/, '').trim());
+    }
+  }
+  
+  // 将正确答案转换为文本（如果是 A 或 B）
+  let correctText = correctNormalized;
+  if (correctNormalized === 'A' || correctNormalized === 'B') {
+    const option = question.options.find(opt => opt.startsWith(correctNormalized));
+    if (option) {
+      correctText = normalizeAnswer(option.replace(/^[AB]、/, '').trim());
+    }
+  }
+  
+  return userText === correctText;
+}
+
 function normalizeAnswer(s: string): string {
-  return (s || '').trim().replace(/[，,]/g, ',').toUpperCase();
+  let result = (s || '').trim().replace(/[，]/g, ',').toUpperCase();
+  // 如果没有逗号但有多个连续字母（如 "BCD"），在字母之间插入逗号
+  if (!result.includes(',') && result.length > 1 && /^[A-Z]+$/.test(result)) {
+    result = result.split('').join(',');
+  }
+  return result;
 }

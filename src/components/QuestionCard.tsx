@@ -18,11 +18,15 @@ export function QuestionCard({
   disabled,
 }: QuestionCardProps) {
   const isMultiple = question.type === 'multiple';
-  const answer = Array.isArray(userAnswer) ? userAnswer : (userAnswer ? [userAnswer] : []);
+  // 将 userAnswer 转换为数组：支持 "A,B,C" 格式
+  const answer = Array.isArray(userAnswer) 
+    ? userAnswer 
+    : (userAnswer ? userAnswer.split(',').map(s => s.trim()).filter(Boolean) : []);
 
   const handleChange = (opt: string) => {
     if (disabled) return;
-    const val = opt.split('.')[0].trim();
+    // 提取选项字母：支持 "A、" "A." "A " 等格式
+    const val = opt.match(/^([A-Z])/)?.[1] || opt.split(/[、.\s]/)[0].trim();
     if (isMultiple) {
       const newAns = answer.includes(val)
         ? answer.filter(a => a !== val)
@@ -44,7 +48,8 @@ export function QuestionCard({
       <h2 className="text-lg text-slate-800 mb-6 leading-relaxed">{question.title}</h2>
       <div className="space-y-3">
         {question.options.map(opt => {
-          const val = opt.split('.')[0].trim();
+          // 提取选项字母：支持 "A、" "A." "A " 等格式
+          const val = opt.match(/^([A-Z])/)?.[1] || opt.split(/[、.\s]/)[0].trim();
           const checked = answer.includes(val);
           let borderClass = 'border-slate-200';
           if (showResult) {

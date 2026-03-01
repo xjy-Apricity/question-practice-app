@@ -6,6 +6,7 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { Practice } from './pages/Practice';
 import { WrongBook } from './pages/WrongBook';
+import { WrongPractice } from './pages/WrongPractice';
 import { Exam } from './pages/Exam';
 import { ExamResult } from './pages/ExamResult';
 import { Scores } from './pages/Scores';
@@ -21,6 +22,7 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/practice" element={<Practice />} />
             <Route path="/wrong" element={<WrongBook />} />
+            <Route path="/wrong-practice" element={<WrongPractice />} />
             <Route path="/exam" element={<Exam />} />
             <Route path="/exam/result" element={<ExamResult />} />
             <Route path="/scores" element={<Scores />} />
