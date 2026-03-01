@@ -27,7 +27,7 @@ export function Practice() {
       setLoading(false);
       return;
     }
-    setQuestions(getRandomQuestions(all, 10));
+    setQuestions(getRandomQuestions(all, 100));
     setLoading(false);
   }, []);
 
