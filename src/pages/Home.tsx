@@ -45,7 +45,7 @@ export function Home() {
   return (
     <div>
       <div className="text-center mb-12">
-        <h1 className="text-3xl font-bold text-slate-800 mb-2">刷题助手</h1>
+        <h1 className="text-3xl font-bold text-slate-800 mb-2">三级理论刷题助手</h1>
         <p className="text-slate-600">
           {user ? `欢迎回来，${user.username || user.email}` : '请先登录以记录成绩和错题'}
         </p>
