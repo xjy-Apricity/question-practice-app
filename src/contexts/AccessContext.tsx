@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
 
 interface AccessContextType {
   hasAccess: boolean;
@@ -7,7 +7,7 @@ interface AccessContextType {
 
 const AccessContext = createContext<AccessContextType | undefined>(undefined);
 
-const CORRECT_PASSWORD = 'sanjililun2025'; // 访问密码
+const CORRECT_PASSWORD = 'sanjililun2026'; // 访问密码
 
 export function AccessProvider({ children }: { children: ReactNode }) {
   const [hasAccess, setHasAccess] = useState(false);
