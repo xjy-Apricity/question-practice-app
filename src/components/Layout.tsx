@@ -69,7 +69,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </nav>
       <main className="flex-1 max-w-4xl mx-auto px-4 py-8 w-full">{children}</main>
       <footer className="text-center py-4 text-xs text-slate-500">
-        由xjy开发，疑问请联系18382125920
+        版本1.0.0，由xjy开发，疑问请联系18382125920
       </footer>
     </div>
   );
