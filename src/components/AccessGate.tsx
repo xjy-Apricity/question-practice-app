@@ -55,7 +55,7 @@ export function AccessGate() {
           </form>
 
           <div className="mt-6 text-center text-xs text-slate-500">
-            <p>由xjy开发，疑问请联系18382125920</p>
+            <p>版本1.0.0，由xjy开发，疑问请联系18382125920</p>
           </div>
         </div>
       </div>
