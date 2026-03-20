@@ -47,6 +47,15 @@ export function Practice() {
     }
   }, [currentIndex, answerHistory]);
 
+  // 当用户改变答案时，实时保存到历史记录
+  const handleAnswerChange = (answer: string) => {
+    setUserAnswer(answer);
+    setAnswerHistory(prev => ({
+      ...prev,
+      [currentIndex]: { answer, correct: false, submitted: false }
+    }));
+  };
+
   const current = questions[currentIndex];
 
   const handleSubmit = () => {
@@ -78,7 +87,8 @@ export function Practice() {
   };
 
   const handlePrev = () => {
-    setCurrentIndex(i => (i > 0 ? i - 1 : questions.length - 1));
+    const newIndex = currentIndex > 0 ? currentIndex - 1 : questions.length - 1;
+    setCurrentIndex(newIndex);
   };
 
   if (loading || questions.length === 0) {
@@ -103,7 +113,7 @@ export function Practice() {
       <QuestionCard
         question={current}
         userAnswer={userAnswer}
-        onSubmit={setUserAnswer}
+        onSubmit={handleAnswerChange}
         showResult={showResult}
         correct={correct}
         disabled={showResult}
@@ -139,14 +149,14 @@ export function Practice() {
           >
             提交答案
           </button>
-        ) : !correct ? (
+        ) : (
           <button
             onClick={handleNext}
             className="px-6 py-2 bg-slate-700 text-white rounded-lg hover:bg-slate-800"
           >
             下一题
           </button>
-        ) : null}
+        )}
       </div>
     </div>
   );
