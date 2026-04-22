@@ -1,0 +1,1485 @@
+import type { Question } from '../types';
+
+// 第七套题库（来自题库文件7）
+export const NEW_QUESTIONS_7: Question[] = [
+  {
+    id: 'new7_1',
+    type: 'single',
+    title: '1.以下不属于烟草行业使命的是( )。',
+    options: [
+      'A、报效国家',
+      'B、回报社会',
+      'C、自律自强',
+      'D、成就员工'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_2',
+    type: 'single',
+    title: '2.经销商与出口企业之间的关系是( )。在经销商和出口企业之间有货物所有权的转移。经销商向出口 商购进货物,自行销售,自负盈亏,自担风险。',
+    options: [
+      'A、委托关系',
+      'B、买卖关系',
+      'C、代理关系',
+      'D、代销关系'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_3',
+    type: 'single',
+    title: '3.关于烟草国际贸易,以下说法错误的是( )。',
+    options: [
+      'A、国家烟草专卖局是我国烟草行业进出口贸易和对外经济技术合作的主管部门',
+      'B、烟草行业企业只能购进由中国烟草国际有限公司组织进口的烟草类货物',
+      'C、烟草行业企业只能通过中国烟草国际有限公司出口烟草类货物',
+      'D、烟草行业企业购进进口烟草类货物的余缺调剂,由中国烟草国际有限公司统一组织安排。'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_4',
+    type: 'single',
+    title: '4.专卖管理人员小王运用“APCD”工作法,获取的零售户张三在日常经营中形成的动态信息属于( )。',
+    options: [
+      'A、案件信息',
+      'B、订单信息',
+      'C、基本信息',
+      'D、其他信息'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_5',
+    type: 'single',
+    title: '5.自然人是指基于( )而取得民事主体资格的人。',
+    options: [
+      'A、法定条件',
+      'B、普世协议',
+      'C、自然规律出生',
+      'D、法律关系建立'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_6',
+    type: 'single',
+    title: '6.烟草专卖执法人员在审查张某销售非法生产卷烟案件的过程中,发现张某前后两次的询问笔录陈述的结 论不同,最后结合其它证据采信了最一次询问笔录的结论,这种对证据的审查方法是( )。',
+    options: [
+      'A、资格确认法',
+      'B、矛盾排除法',
+      'C、对照分析法',
+      'D、比较取舍法'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_7',
+    type: 'single',
+    title: '7.证据只有( ),才能作为定案的根据。',
+    options: [
+      'A、查证属实',
+      'B、收集完整',
+      'C、机关负责人通过',
+      'D、采集及时'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_8',
+    type: 'single',
+    title: '8.下列关于授益行政行为和不利行政行为的表述,不正确的是( )。',
+    options: [
+      'A、授益行政行为是指设定或确认权益,或者减免义务的行为',
+      'B、不利行政行为是指设定或确认义务,或者限制、剥夺或拒绝确认其权益的行为',
+      'C、授益行政行为和不利行政行为在一定层面上又是相对的',
+      'D、授益行政行为又称负担行政行为'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_9',
+    type: 'single',
+    title: '9.行政强制措施,是指行政机关在( ),为制止违法行为、防止证据损毁、避免危害发生、控制危险扩大 等情形,依法对公民的人身自由实施暂时性限制,或者对公民、法人或者其他组织的财物实施暂时性控制的 行为。',
+    options: [
+      'A、行政许可过程中',
+      'B、行政管理过程中',
+      'C、行政处罚过程中',
+      'D、执行过程中'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_10',
+    type: 'single',
+    title: '10.专卖管理人员小王运用“APCD”工作法开展工作时,发现张三的烟草专卖零售许可证登记的经营地址 名称已发生改变且未及时变更,该信息属于( )。',
+    options: [
+      'A、许可证管理问题',
+      'B、市场净化问题',
+      'C、规范经营问题',
+      'D、其他问题'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_11',
+    type: 'single',
+    title: '11.以下说法错误的是( )。',
+    options: [
+      'A、站立是人们生活交往中的一种最基本的举止',
+      'B、正确的坐姿要求是“坐如弓”,即坐相要像弓一样有弧度',
+      'C、最能体现出一个人的精神面貌的姿态就是走姿',
+      'D、手势是最有表现力的一种“体态语言”'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_12',
+    type: 'single',
+    title: '12.关于我国进出口贸易的业务程序描述正确的是( )。',
+    options: [
+      'A、交易磋商是买卖双方按照合同条款履行自己的权利和义务',
+      'B、准备阶段包括行情调研、商品市场调研、客户调研、广告宣传和商标注册等工作',
+      'C、在调研的基础上制订进出口商品经营方案是在交易磋商阶段',
+      'D、履行合同阶段,从事交易的各方需与对方就合同主要内容进行磋商'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_13',
+    type: 'single',
+    title: '13.以下说法错误的是( )。',
+    options: [
+      'A、责任烟草是烟草行业文化的本质特征',
+      'B、诚信烟草是烟草行业的道德要求',
+      'C、和谐烟草是实现行业又好又快发展目标的基础',
+      'D、效率烟草是中华民族传统美德和市场经济的有机结合'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_14',
+    type: 'single',
+    title: '14.重点检查合同签订和烟叶大田移栽情况时,要做到( )与实地抽查相结合。',
+    options: [
+      'A、走访烟站',
+      'B、走访客户',
+      'C、走访烟农',
+      'D、走访市场'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_15',
+    type: 'single',
+    title: '15.邮寄烟叶、烟丝时,邮寄限量为( )。',
+    options: [
+      'A、烟叶、烟丝以 10kg 为限，两者合寄时不超过 10kg',
+      'B、烟叶、烟丝以 10kg 为限，两者合寄时不超过 20kg',
+      'C、烟叶、烟丝以 5kg 为限，两者合寄时不超过 5kg',
+      'D、烟叶、烟丝以 5kg 为限，两者合寄时不超过 10kg'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_16',
+    type: 'single',
+    title: '16.烟草公司与卷烟零售户之间是批发商与零售商之间的关系,应当成为( )。',
+    options: [
+      'A、合作伙伴关系',
+      'B、管理和被管理关系',
+      'C、供销关系',
+      'D、利益共同体'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_17',
+    type: 'single',
+    title: '17.已公认的烟草属约有( )种,多数原产中美洲,部分原产澳大利亚,目前成为栽培作物的只有黄花烟草 与普通烟草。',
+    options: [
+      'A、62',
+      'B、66',
+      'C、68',
+      'D、86'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_18',
+    type: 'single',
+    title: '18.检查烟叶和烟用丝束委托加工环节时,也要收集( )及准运证开具情况汇总表。',
+    options: [
+      'A、产品运输',
+      'B、成品回调',
+      'C、成品回收',
+      'D、成品入库'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_19',
+    type: 'single',
+    title: '19.烟叶加工环节的检查涉及的部门包括仓储部门、( )、财务部门等。',
+    options: [
+      'A、销售部门',
+      'B、生产部门',
+      'C、内管部门',
+      'D、计划部门'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_20',
+    type: 'single',
+    title: '20.检查原辅材料管理可以运用数据( )的方法。',
+    options: [
+      'A、信息校对',
+      'B、问题梳理',
+      'C、现场检查',
+      'D、分析对比'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_21',
+    type: 'single',
+    title: '21.对卷烟、雪茄烟生产企业( )的检查时,一般采用数据对比分析的方式检查销售合同的执行情况。',
+    options: [
+      'A、卷烟生产环节',
+      'B、卷烟仓储环节',
+      'C、卷烟原料环节',
+      'D、卷烟销售环节'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_22',
+    type: 'single',
+    title: '22.烟草行业“两个至上”行业共同价值观和《烟草专卖法》,两者( )。',
+    options: [
+      'A、没有关系',
+      'B、存在包含关系',
+      'C、相辅相成、相互促进',
+      'D、关联性不紧密'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_23',
+    type: 'single',
+    title: '23.下列属于烟叶收购环节检查需要收集的经营资料的是( )。',
+    options: [
+      'A、烟叶财务制度',
+      'B、烟叶运输制度',
+      'C、烟叶收购数据',
+      'D、烟叶收购规程'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_24',
+    type: 'single',
+    title: '24.根据《烟草专卖许可证管理办法》第五十六条规定,使用涂改、伪造、变造的烟草专卖许可证的违法行 为的直接法律后果是( )。',
+    options: [
+      'A、申请人在三年内不得再次提出烟草专卖行政许可申请',
+      'B、申请人在一年内不得再次提出烟草专卖行政许可申请',
+      'C、不予受理或者不予发证',
+      'D、涂改、伪造、变造的烟草专卖许可证无效'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_25',
+    type: 'single',
+    title: '25.法定处罚依据规定有行政处罚种类可选择的,以下叙述错误的是( )。',
+    options: [
+      'A、对社会危害轻微的违法行为,优先选择谴责性和告诫性的罚种,不应选择其他行政处罚种类',
+      'B、一般违法行为,优先选择可以直接制止违法行为危害的罚种',
+      'C、一般违法行为,在财产罚中,优先选择没收当事人的违法所得,并可以选择罚款予以附加惩罚',
+      'D、对于违法行为情节严重的,还可以选择取消其从事烟草专卖业务的资格的行政处罚来从重处罚'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_26',
+    type: 'single',
+    title: '26.下列不是犯罪构成的共同要件是( )。',
+    options: [
+      'A、犯罪者',
+      'B、犯罪主观方面',
+      'C、犯罪客体',
+      'D、犯罪客观方面'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_27',
+    type: 'single',
+    title: '27.当事人申请听证主持人回避的,烟草专卖局应当依法审查,由( )决定是否回避。',
+    options: [
+      'A、专卖部门负责人',
+      'B、上级机关负责人',
+      'C、机关负责人',
+      'D、法制部门负责人'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_28',
+    type: 'single',
+    title: '28.以下不属于行政处罚管辖的是( )。',
+    options: [
+      'A、地域管辖',
+      'B、指定管辖',
+      'C、共同管辖',
+      'D、间接管辖'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_29',
+    type: 'single',
+    title: '29.在涉烟刑事案件移送程序中,以下表述错误的是( )。',
+    options: [
+      'A、对未能及时移送并已作出行政处罚的涉嫌犯罪案件,烟草专卖局应当于作出行政处罚 10 日以内向上 级公安机关、人民检察院抄送《行政处罚决定书》副本,并书面告知相关权利人',
+      'B、烟草专卖局对公安机关决定立案的案件,应当自接到立案通知书之日起 3 日内将涉案物品以及与案件 有关的其他材料移交公安机关,并办结交接手续',
+      'C、公安机关应当自接受行政执法机关移送的涉嫌犯罪案件之日起 3 日内,对所移送的案件进行审查,并 在 10 日内作出立案或者不立案的决定',
+      'D、烟草专卖局正职或者主持工作的负责人应当自接到报告之日起 3 日内作出批准移送或者不批准移送 的决定'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_30',
+    type: 'single',
+    title: '30.( )在行政处罚案件听证中需要与当事人进行质证与相互辩论。',
+    options: [
+      'A、听证主持人',
+      'B、记录人',
+      'C、鉴定人员',
+      'D、案件调查人员'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_31',
+    type: 'single',
+    title: '31.为进一步规范市场检查行为,提高市场检査工作水平和效率,建立和完善“打击严厉、管理到位、疏导及时、( )”的市场监管体系。',
+    options: [
+      'A、服务到位',
+      'B、服务及时',
+      'C、服务周到',
+      'D、管服到位'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_32',
+    type: 'single',
+    title: '32.下列关于烟草专卖执法“六个严禁”严禁滥用专卖执法权力所禁止的行为的说法,不正确的是( )。',
+    options: [
+      'A、截留办案奖励经费,侵占、私分、调换涉案财物',
+      'B、私自截留、隐匿或销毁案件信息和线索',
+      'C、不移交涉嫌刑事犯罪的案件',
+      'D、为亲友及其他关系人伪造、篡改、调换案件证据材料或检査记录'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_33',
+    type: 'single',
+    title: '33.根据市场管理信息分析的科学性原则,信息分析是以大量资料为对象的,它们客观地记录了各种数据和 事实,根据这些客观事实和数据,信息分析人员进行( )分析,通过辨别真伪、去粗取精、去伪存真,从而 得出正确的结论。',
+    options: [
+      'A、主观',
+      'B、客观',
+      'C、定性',
+      'D、定量'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_34',
+    type: 'single',
+    title: '34.甲市烟草专卖局稽査支队一大队 2022 年 6 月份査处的案件数量、涉案卷烟数量及品牌与稽査支队二大 队同类数据进行比对,得出了二大队在打击无证运输、未在当地烟草专卖批发企业进货方面成绩突出,釆取 的是( )。',
+    options: [
+      'A、拟合模型法',
+      'B、静态对比',
+      'C、动态对比',
+      'D、综合法'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_35',
+    type: 'single',
+    title: '35.听证程序是行政处罚中的特殊程序,是一种严格的、( )。',
+    options: [
+      'A、内部认证程序',
+      'B、内部监督程序',
+      'C、司法程序',
+      'D、准司法化程序'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_36',
+    type: 'single',
+    title: '36.行政诉讼是人民法院运用( )解决行政争议的活动。',
+    options: [
+      'A、国家审判权',
+      'B、法律法规',
+      'C、法律武器',
+      'D、国家强制力'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_37',
+    type: 'single',
+    title: '37.对不及时办理烟草专卖许可证变更手续的违法行为进行调査时,必须了解( )。',
+    options: [
+      'A、违法行为实施的主体、违法许可证使用的时间和危害程度等相关情况',
+      'B、违法行为实施主体隐瞒的事实真相及客观原因',
+      'C、引起变更的原因、内容、时间,烟草专卖局责令其改正及持证人拒不改正的相关情况等',
+      'D、违法行为针对的客体、违法许可证使用的对象等相关情况'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_38',
+    type: 'single',
+    title: '38.“疏堵结合”的原则是“APCD”工作法中( )环节的作业要求。',
+    options: [
+      'A、分析',
+      'B、计划',
+      'C、检查',
+      'D、处理'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_39',
+    type: 'single',
+    title: '39.依据《国家烟草专卖局关于卷烟纸和滤嘴棒及烟用丝束生产企业许可证审批有关事项的通知 (国烟法 (2020)188 号)》规定,( )需经国家烟草专卖局核准。',
+    options: [
+      'A、烟用二醋酸纤维素及丝束项目',
+      'B、烟机生产项目',
+      'C、烟丝膨胀项目',
+      'D、卷烟生产项目'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_40',
+    type: 'single',
+    title: '40.烟草专卖许可证核定的经营主体为自然人,自然人死亡或者丧失民事行为能力的,发证机关应当依法 ( )烟草专卖许可证。',
+    options: [
+      'A、撤销',
+      'B、注销',
+      'C、撤回',
+      'D、收回'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_41',
+    type: 'single',
+    title: '41.省级工业公司下属的卷烟厂法人资格已取消的，其卷烟厂仅作为( ),完成生产任务。',
+    options: [
+      'A、加工点',
+      'B、生产点',
+      'C、销售点',
+      'D、经营点'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_42',
+    type: 'single',
+    title: '42.按照《工作规范》规定,对烟叶( )企业的日常监管主要针对烟叶收购环节。',
+    options: [
+      'A、种植收购复烤',
+      'B、种植收购调拨',
+      'C、种植收购经营',
+      'D、种植收购仓储'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_43',
+    type: 'single',
+    title: '43.用于上市三年内产品的样品卷烟须在条外包装侧面显著位置标注“( )”字样。',
+    options: [
+      'A、评吸烟',
+      'B、试制品',
+      'C、非卖品',
+      'D、促销烟'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_44',
+    type: 'single',
+    title: '44.下列哪项是属于烟草专用机械生产企业的流程( )。',
+    options: [
+      'A、制定方案',
+      'B、协调生产',
+      'C、申请计划',
+      'D、安排采购'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_45',
+    type: 'single',
+    title: '45.专卖部门在现场检查、实地监管烟丝、烟用丝束生产企业成品销售环节时,可以从物流角度查看成品出 入库记录,检查专卖品发出时是否( )并开具了准运证。',
+    options: [
+      'A、手续齐全',
+      'B、资料完备',
+      'C、数据完整',
+      'D、材料齐全'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_46',
+    type: 'single',
+    title: '46.烟叶复烤加工企业在加工过程中产生的副产品及废弃烟草专卖品未彻底毁形的( )。',
+    options: [
+      'A、发还委托单位',
+      'B、能出库不出厂',
+      'C、不能出厂出库',
+      'D、只能指定销售'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_47',
+    type: 'single',
+    title: '47.针对举报立案调查的案件,在调查取证初始阶段应把主要精力放在( )。',
+    options: [
+      'A、证实举报材料内容的真实性上',
+      'B、保证立案程序的合法性上',
+      'C、衡量案件经营的价值上',
+      'D、判断举报人的可靠性上'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_48',
+    type: 'single',
+    title: '48.涉烟案件调查取证方案制定的主体是( )。',
+    options: [
+      'A、内勤人员',
+      'B、烟草专卖局及其办案人员',
+      'C、司法机关',
+      'D、专卖部门'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_49',
+    type: 'single',
+    title: '49.情报之于分析过程是情报,但从处罚的角度看,情报的载体或情报本身可能就是( )。',
+    options: [
+      'A、待证事实',
+      'B、证据',
+      'C、取证对象',
+      'D、执行对象'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_50',
+    type: 'single',
+    title: '50.经营卷烟出口业务的企业是指经( )同意,经营卷烟出口的省级工业公司和进出口公司等企业。',
+    options: [
+      'A、国家烟草专卖局、中国烟草总公司',
+      'B、国家烟草专卖局、中国烟草总公司、中国烟草国际有限公司',
+      'C、中国烟草总公司、中国烟草国际有限公司、商务部',
+      'D、海关、商务部'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_51',
+    type: 'single',
+    title: '51.新型零售业态中的超市等零售业态具有统一组织、统一管理、统一要求、统一考核的企业管理模式,它 们要求由总部统一集中进货,而烟草专卖辖区管理要求各零售业态( ),辖区供货,而且不得跨辖区货源 流动。',
+    options: [
+      'A、多店一证',
+      'B、一店一证',
+      'C、一企一证',
+      'D、一人一证'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_52',
+    type: 'single',
+    title: '52.档案有( )、记录方式和载体形式的多样性以及原始的记录性等特性。',
+    options: [
+      'A、来源的普遍性、形成的复杂性',
+      'B、来源的广泛性、形成的条件性',
+      'C、来源的普遍性、形成的条件性',
+      'D、来源的广泛性、形成的复杂性'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_53',
+    type: 'single',
+    title: '53.新型零售业务的发展规划和传统意义的商业布局不同,它的市场化水平较高,以实力参与竞争,以竞争 谋取利益;尤其是快捷高速的( )网络层次构成已成为新型零售业态显著特点。',
+    options: [
+      'A、物流',
+      'B、外部销售',
+      'C、内部销售',
+      'D、底层销售'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_54',
+    type: 'single',
+    title: '54.出口指将( )商品通过买卖活动转移到国外。',
+    options: [
+      'A、境外',
+      'B、境内',
+      'C、他国',
+      'D、国内'
+    ],
+    correctAnswer: 'D',
+    explanation: '参考答案：D',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_55',
+    type: 'single',
+    title: '55.对烟草零售业态信息的统计在业态信息应用过程中发挥十分重要的作用,它是业态资料收集、处理和最 终措施制定之间的连接器,业态信息统计工作质量的高低,直接关系到( )的成败。',
+    options: [
+      'A、业态信息调查',
+      'B、业态信息分析',
+      'C、业态信息应用',
+      'D、业态信息分类'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_56',
+    type: 'single',
+    title: '56.业态信息分析的原则不包括( )原则。',
+    options: [
+      'A、科学性',
+      'B、完整性',
+      'C、客观性',
+      'D、动态性'
+    ],
+    correctAnswer: 'A',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_57',
+    type: 'single',
+    title: '57.卷烟调运由国家烟草专卖局根据( )统一开具和管理的卷烟调运单签发烟草专卖品准运证。',
+    options: [
+      'A、中国烟草总公司',
+      'B、中国卷烟销售公司',
+      'C、省级烟草专卖局',
+      'D、国家烟草专卖局'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_58',
+    type: 'single',
+    title: '58.运输出口烟用物资的,由调出方所在地有权签发准运证的烟草专卖局,根据( )鉴章的出口合同签发 从调出方到口岸的烟草专卖品准运证。',
+    options: [
+      'A、国家烟草专卖局',
+      'B、国家烟草专卖局经济运行司',
+      'C、中国烟草国际有限公司',
+      'D、中国烟草总公司'
+    ],
+    correctAnswer: 'C',
+    explanation: '参考答案：C',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_59',
+    type: 'single',
+    title: '59.因烟草专卖执法人员滥用职权、非法扣留造成当事人经济损失的,必须( )由此造成的经济损失。',
+    options: [
+      'A、补偿',
+      'B、赔偿',
+      'C、支付',
+      'D、弥补'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_60',
+    type: 'single',
+    title: '60.运输退货、置换、理赔、试用级样品烟用物资,由( )有权签发准运证的烟草专卖局,根据中国烟草物 资公司的烟用物资调拨单签发准运证。',
+    options: [
+      'A、目的地',
+      'B、调出方所在地',
+      'C、调入方所在地',
+      'D、货物生产地 二、多项选择题'
+    ],
+    correctAnswer: 'B',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_61',
+    type: 'multiple',
+    title: '61.下列哪些是检查卷烟销售环节需要收集的经营资料( )。',
+    options: [
+      'A、财务部门卷烟货款结算明细',
+      'B、企业综合部门卷烟销售报表',
+      'C、卷烟发出准运证开具汇总表',
+      'D、成品库卷烟出库汇总表'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_62',
+    type: 'multiple',
+    title: '62.烟草薄片、卷烟纸、( )销售对象必须是持有烟草专卖品生产企业许可证,并办理相应的烟草专卖品 交易会员资格。',
+    options: [
+      'A、烟丝',
+      'B、滤嘴棒',
+      'C、烟用丝束',
+      'D、烟草专用机械'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_63',
+    type: 'multiple',
+    title: '63.卷烟综合质量包括( )方面内容。',
+    options: [
+      'A、包装标识',
+      'B、包装与卷制质量',
+      'C、感官质量',
+      'D、主流烟气指标'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_64',
+    type: 'multiple',
+    title: '64.刑事责任的特征有( )。',
+    options: [
+      'A、强制性',
+      'B、严厉性',
+      'C、专属性',
+      'D、准据性'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_65',
+    type: 'multiple',
+    title: '65.下列关于行政强制原则的表述,错误的是( )。',
+    options: [
+      'A、行政强制实施过程中,应当贯彻和发挥强制的适当性,促使当事人更加主动地履行行政法律义务',
+      'B、行政机关及其工作人员不得利用行政强制权为个人谋取利益,不存在为单位的谋利的行政强制',
+      'C、行政强制的设定和实施,应当依照法定的权限、范围、条件和程序',
+      'D、公民、法人或者其他组织因人民法院在强制执行中有违法行为或者扩大强制执行范围受到损害的, 有权依法要求赔偿'
+    ],
+    correctAnswer: 'AB',
+    explanation: '参考答案：AB',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_66',
+    type: 'multiple',
+    title: '66.属于对烟草薄片、烟丝、卷烟纸、滤嘴棒、烟用丝束、烟草专用机械生产企业的日常监管重点监管内 容的是:( )。',
+    options: [
+      'A、是否取得烟草生产许可证,许可证是否有效',
+      'B、生产所需原料是专卖品的,购进渠道是否合规,是否严格按合同进行',
+      'C、销售对象是否是持有烟草专卖许可证',
+      'D、是否严格执行生产计划,是否严格执行销售合同'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_67',
+    type: 'multiple',
+    title: '67.张三持有的烟草专卖零售许可证在有效期内发生下列情形( )时,张三可以申请变更烟草专卖零售许 可证。',
+    options: [
+      'A、张三是个人经营的个体工商户,其妻李四与张三共同经营,张三将持证人变更为李四',
+      'B、张三经营地址名称由青阳路 110 号变更为星河路 2-11 号',
+      'C、张三个体工商户字号由“三三水果店”变更为“张三鲜果量贩店”',
+      'D、因市政道路规划原因,张三的经营场所由甲市 A 县红星路 110 号搬迁至甲市 B 县青阳路 111 号'
+    ],
+    correctAnswer: 'BC',
+    explanation: '参考答案：BC',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_68',
+    type: 'multiple',
+    title: '68.开办烟草制品生产企业应由国家烟草专卖局进行生产许可审查,包括( )的审査。',
+    options: [
+      'A、生产条件',
+      'B、技术条件',
+      'C、质量保证体系',
+      'D、其他必备条件'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_69',
+    type: 'multiple',
+    title: '69.责任法定原则包括的含义有( )。',
+    options: [
+      'A、确认烟草专卖法律责任必须有烟草专卖法律、法规的明确规定为依据',
+      'B、确认烟草专卖法律责任必须依照烟草专卖法律、法规的规定去认定',
+      'C、凡经确认的烟草专卖违法行为,都应该追究其法律责任',
+      'D、违反烟草专卖法律义务,构成烟草专卖违法行为的当事人,应对自己的违法行为独立负责'
+    ],
+    correctAnswer: 'ABC',
+    explanation: '参考答案：ABC',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_70',
+    type: 'multiple',
+    title: '70.烟叶调拨销售环节的检查涉及的部门包括( )。',
+    options: [
+      'A、烟叶销售部门',
+      'B、储运部门',
+      'C、财务部门',
+      'D、专卖部门'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_71',
+    type: 'multiple',
+    title: '71.以下关于“道德”的说法正确的是( )。',
+    options: [
+      'A、道德随着社会的不断发展变化而发展变化',
+      'B、没有永恒不变的道德',
+      'C、道德是强调人们行为“应当”怎样和“不应当”怎样的标准',
+      'D、道德是一种行为规范'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_72',
+    type: 'multiple',
+    title: '72.对原辅材料管理的检查,涉及企业的有关部门有( )、财务部等。',
+    options: [
+      'A、原料部',
+      'B、物资部',
+      'C、原料库',
+      'D、辅料库'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_73',
+    type: 'multiple',
+    title: '73.对于当事人的陈述主要围绕审查哪些要点进行( )。',
+    options: [
+      'A、是否违反法定程序所得',
+      'B、同其他证据之间的关系',
+      'C、提供者的品格、操行对证据是否产生影响',
+      'D、是否符合逻辑'
+    ],
+    correctAnswer: 'ABD',
+    explanation: '参考答案：ABD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_74',
+    type: 'multiple',
+    title: '74.关于涉烟刑事犯罪概念叙述错误的是( )。',
+    options: [
+      'A、生产、销售伪劣产品罪,是指生产者、销售者在产品中掺杂、掺假,以假充真,以次充好或者以不合格 产品冒充合格产品,销售金额在 5 万元以上的行为',
+      'B、非法经营罪是指违反法律、法规规定,从事非法经营活动,扰乱市场秩序情节严重的行为',
+      'C、假冒注册商标罪,是指违反国家商标管理法规,未经注册商标所有人许可,在同一种商品、服务上使用 与其注册商标相同的商标,情节严重的行为',
+      'D、销售假冒注册商标的商品罪,是指销售明知是假冒注册商标的商品,销售金额较大或者有其他严重情 节的行为'
+    ],
+    correctAnswer: 'BD',
+    explanation: '参考答案：BD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_75',
+    type: 'multiple',
+    title: '75.关于生产、销售伪劣产品罪构成要件叙述正确的是( )。',
+    options: [
+      'A、犯罪客体是国家产品质量管理秩序和用户、消费者的合法权益',
+      'B、犯罪对象是伪劣产品',
+      'C、主体为一般主体,包括自然人和单位,自然人实施本罪比较普遍',
+      'D、主观方面由故意构成,本罪不要求具有牟利目的'
+    ],
+    correctAnswer: 'ABD',
+    explanation: '参考答案：ABD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_76',
+    type: 'multiple',
+    title: '76.以下不属于烟草专卖局移送涉烟刑事案件的主要依据的是( )。',
+    options: [
+      'A、《刑事诉讼法》',
+      'B、《行政处罚法》',
+      'C、《行政执法机关移送涉嫌犯罪案件的规定》',
+      'D、《行政诉讼法》'
+    ],
+    correctAnswer: 'AD',
+    explanation: '参考答案：AD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_77',
+    type: 'multiple',
+    title: '77.专卖管理信息分析的步骤中“搜集课题相关的信息”之后的步骤包括( )。',
+    options: [
+      'A、选择课题',
+      'B、分类整理',
+      'C、利用各种信息分析研究方法进行全面的分析与综合研究',
+      'D、成果表达'
+    ],
+    correctAnswer: 'BCD',
+    explanation: '参考答案：BCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_78',
+    type: 'multiple',
+    title: '78.以下关于撤回的说法正确的包括( )。',
+    options: [
+      'A、办理撤回烟草专卖零售许可证的机关是该烟草专卖许可证的发证机关',
+      'B、办理烟草专卖零售许可证所依据的客观情况发生重大变化的,就应当撤回许可证',
+      'C、如果撤回烟草专卖零售许可给被许可人造成财产损失的,原发证机关应当依法予以补偿',
+      'D、在作出撤回该零售许可决定后,原发证机关应当书面告知持证人享有陈述权、申辩权'
+    ],
+    correctAnswer: 'AC',
+    explanation: '参考答案：AC',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_79',
+    type: 'multiple',
+    title: '79.专卖管理员对卷烟市场资料进行分类时,应该注意的事项包括( )。',
+    options: [
+      'A、科学合理',
+      'B、准确定性',
+      'C、全面考虑',
+      'D、资料齐全'
+    ],
+    correctAnswer: 'BCD',
+    explanation: '参考答案：BCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_80',
+    type: 'multiple',
+    title: '80.关于烟草制品商标标识的特殊性规定,下列说法不正确的是( )。',
+    options: [
+      'A、在卷烟商标上加印卷烟产品条形编码的厂家,必须报中国烟草总公司备案后,再向国家技术监督部门 申请办理有关手续',
+      'B、软条包装、条包封签应以汉字注明商标名称、商品名称和企业名称,标注企业名称时,应冠“中国烟 草总公司"字样',
+      'C、联营产品和监制产品应以汉字标明生产企业和监制单位名称。出口产品如有特殊需要,应事先经中国 烟草国际有限公司审核',
+      'D、在商标图案上标注“注册商标”字样或[注]®标记'
+    ],
+    correctAnswer: 'BC',
+    explanation: '参考答案：BC',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_81',
+    type: 'multiple',
+    title: '81.甲县持证卷烟零售户张三于 2022 年 7 月 1 日向甲县烟草专卖局提出歇业申请,经查张三因销售假冒伪 劣卷烟正在被甲县烟草专卖局调查,尚未结案。以下说法正确的包括( )。',
+    options: [
+      'A、甲县烟草专卖局对张三的歇业申请的审査主要釆用书面审査的方式',
+      'B、甲县烟草专卖局对张三的歇业申请可以中止办理',
+      'C、甲县烟草专卖局对张三的歇业申请可以终止办理',
+      'D、甲县烟草专卖局对张三的歇业申请应当不予受理'
+    ],
+    correctAnswer: 'AB',
+    explanation: '参考答案：AB',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_82',
+    type: 'multiple',
+    title: '82.“APCD”工作法中,根据市场检査中发现的问题,针对违法违规行为的性质确定处置方式,主要包括 ( )。',
+    options: [
+      'A、案件初査',
+      'B、行刑衔接',
+      'C、行政处罚',
+      'D、行政处理'
+    ],
+    correctAnswer: 'AC',
+    explanation: '参考答案：AC',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_83',
+    type: 'multiple',
+    title: '83.有下列( )情形之一的,发证机关可以责令烟草专卖许可证持证人暂停烟草专卖业务、进行整顿,直至 取消其从事烟草专卖业务的资格。',
+    options: [
+      'A、超出烟草专卖零售许可证核准的许可范围经营的',
+      'B、利用自动售货机或者其他自动售货形式,销售或变相销售烟草制品的',
+      'C、利用信息网络销售烟草专卖品的',
+      'D、非法经营烟草专卖品数额在 5 万元以上或者违法所得数额在 2 万元以上或者非法经营卷烟 20 万支以 上,未被追究刑事责任的'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_84',
+    type: 'multiple',
+    title: '84.《行政处罚法》规定的行政处罚,有( )、行政拘留以及法律、行政法规规定的其他行政处罚。',
+    options: [
+      'A、警告、通报批评',
+      'B、罚款、没收违法所得、没收非法财物',
+      'C、暂扣许可证件、降低资质等级、吊销许可证件',
+      'D、限制开展生产经营活动、责令停产停业、责令关闭、限制从业'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_85',
+    type: 'multiple',
+    title: '85.胶粘剂的主要质量要求除无色、无毒和燃烧后无臭、无刺激性外,还有( )。',
+    options: [
+      'A、能在适当温度下快速黏结固化',
+      'B、黏结后的黏接头必须牢固,具有一定的防湿、耐温和防污染的特性',
+      'C、必须有适当的黏稠度,并均匀一致,无结块、无气泡和杂质',
+      'D、易储存'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_86',
+    type: 'multiple',
+    title: '86.重点监管卷烟生产企业是否严格按照计划组织生产,有无( )生产卷烟的情况。',
+    options: [
+      'A、超指标',
+      'B、超计划',
+      'C、超进度',
+      'D、超备货计划'
+    ],
+    correctAnswer: 'BCD',
+    explanation: '参考答案：BCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_87',
+    type: 'multiple',
+    title: '87.关于线索型涉烟情报的处置利用,下列表述正确的是( )。',
+    options: [
+      'A、线索反映可能对市场危害较小、价值较小、时间要求较为宽松的,可按层级管理和职责要求,由相应 的专卖部门负责查实',
+      'B、线索反映可能对市场危害大、价值高、时间要求紧的,要立即组织力量查证情况,据情采取措施,实行 专案查破',
+      'C、线索反映对象属专卖部门日常关注的重点对象,并有重要价值的,要立即组织人员深入调查,布置监控 重点对象的活动',
+      'D、对一些难以查证其准确程度的线索,要立即组织力量查证情况并由相应的专卖部门负责查实'
+    ],
+    correctAnswer: 'ABC',
+    explanation: '参考答案：ABC',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_88',
+    type: 'multiple',
+    title: '88.根据组织形式的结构,调查取证组织形式可分为( )。',
+    options: [
+      'A、单独式',
+      'B、单一式',
+      'C、母子式',
+      'D、联合式'
+    ],
+    correctAnswer: 'BC',
+    explanation: '参考答案：BC',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_89',
+    type: 'multiple',
+    title: '89.下列属于非法生产的烟草专卖品的是( )。',
+    options: [
+      'A、假冒注册商标卷烟',
+      'B、非法拼装的烟草专用机械',
+      'C、伪劣卷烟',
+      'D、销售环节查获的“白条烟”'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_90',
+    type: 'multiple',
+    title: '90.业态信息主要涵盖了某一零售经营领域业态的( )等内容,也包含某一业态的经营方式、管理模式、 经营策略、经营理念等内容。',
+    options: [
+      'A、种类',
+      'B、数量',
+      'C、发展趋势',
+      'D、变化规律 三、判断题'
+    ],
+    correctAnswer: 'ABCD',
+    explanation: '参考答案：ABCD',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_91',
+    type: 'judge',
+    title: '91.91.( )假冒卷烟产品是指将私自生产的卷烟产品冒充在市场上已经有一定声誉和影响力的优质名牌卷 烟产品,或者冒充市场上畅销品牌的卷烟产品。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '正确',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_92',
+    type: 'judge',
+    title: '92.92.( )智力成果是人脑力劳动创造的精神财富,是知识产权的客体,包括文学、艺术、科技作品、发明、 实用新型、外观设计以及商标等。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '正确',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_93',
+    type: 'judge',
+    title: '93.93.( )按照《经济法辞典》的解释,现代意义上的专卖,是指国家以法律的形式把某些商品规定为专卖 品并对专卖品的生产、分配和销售实行国家垄断,统一管理。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '正确',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_94',
+    type: 'judge',
+    title: '94.94.( )烟草专卖法律责任以违法行为为前提。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '正确',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_95',
+    type: 'judge',
+    title: '95.95.( )期初结存+接收废弃烟叶数量=期末结存。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '错误',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_96',
+    type: 'judge',
+    title: '96.96.( )《行政处罚法》规定,行政机关应当依法制定行政处罚裁量基准,规范行使行政处罚裁量权。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '正确',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_97',
+    type: 'judge',
+    title: '97.97.( )检査环节主要包括准备检査计划、检査实施、检査结果判断、检査痕迹记录四个子环节。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '错误',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_98',
+    type: 'judge',
+    title: '98.98( )车间机台台账是了解生产车间卷烟生产情况的第一手记录。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '正确',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_99',
+    type: 'judge',
+    title: '99.99.( )对经营性存储场所检查,当事人不主动配合检查,要充分做好思想工作,告知拒绝、阻碍执法检查 的后果,并当场进行采集视听资料,两名以上执法人员出示执法证件后可以依法进行检查。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '正确',
+    explanation: '参考答案：A',
+    category: '烟草专卖',
+    difficulty: 2,
+  },
+  {
+    id: 'new7_100',
+    type: 'judge',
+    title: '100.100.( )违法行为人不得委托其他人接受案件调查。',
+    options: [
+      'A、正确',
+      'B、错误'
+    ],
+    correctAnswer: '错误',
+    explanation: '参考答案：B',
+    category: '烟草专卖',
+    difficulty: 2,
+  }
+];
